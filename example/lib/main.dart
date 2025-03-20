@@ -113,7 +113,7 @@ class HomeScreen extends StatelessWidget {
                       distanceToClose: 100,
                       enableAnimateToEdge: true,
                       enableBottomShadow: true,
-                      keepAliveWhenAppExit: false,
+                      keepAliveWhenAppExit: true,
                     ),
                     notificationOptions: NotificationOptions(
                       id: 1,
